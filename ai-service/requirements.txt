@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+groq
+pdfminer.six
+python-docx
+pandas
+scikit-learn
+joblib
+numpy
+python-multipart

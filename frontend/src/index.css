@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+}
+
+.glass-card {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.skill-chip {
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.skill-chip:hover {
+  transform: scale(1.08);
+}
